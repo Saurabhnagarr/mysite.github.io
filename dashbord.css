@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #765252;
+    
+}
+header{
+   background-color:#9cc7ec;
+    height: 64px;
+    width: 80%;
+    float: right;
+}
+.username{
+    /* width:130px; */
+    display: inline;
+    float:left ;
+    margin-top:19px;
+    font-size: 20px;
+    padding-left: 10px;
+    /* margin: auto; */
+}
+.logo{
+    display: inline;
+    float: right;
+    margin-top: 19px;
+    font-size: 20px;
+    padding-right:10px;
+}
+.bar{
+    position:absolute;
+    width: 20%;
+    height: 100%;
+    border: 1px solid white;
+    background-color: darkred;
+}
+.item{
+    display: block;
+    width: 111px;
+    margin: 20px auto;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    
+}
+.investing a{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 11px;
+    color:azure;
+    font-weight: bold;
+}
+.investing p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-left: 52px;
+}
+.widthraw{
+    font-size: 15px;
+    padding-bottom: 20px
+}
+.dashborde{
+    background-color: green;
+    color: #430d0dfa;
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    left: 308px;
+    top: 206px; 
+}
+.itemerow2{
+    margin-top: 40px;
+    width: 247px;
+    height: 81px;
+    margin-left: 46px;
+    float: left;
+    border-radius: 4px;
+    background-color:rgb(196, 143, 143);
+    border-left: 5px solid rgb(56, 27, 27);
+}
+.itemerow2 p{
+    margin-top: 22px;
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight:bolder;
+    color: black;
+}
+.itemerow2 span{
+    margin-left: 12px;
+    font-weight: bold;
+}
+.content {
+    width: 79%;
+    color: greenyellow;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 324px;
+    font-style: italic;
+    font-size: large;
+}
+
+
